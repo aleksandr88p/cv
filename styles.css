@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+}
+
+h1,
+h4 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+}
+
+h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+section {
+    text-align: center;
+    margin: 20px;
+}
+
+img {
+    max-width: 350px;
+    margin: 70px;
+    height: auto;
+    border-radius: 25px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.text-column {
+    width: 30%;
+    /* Adjust as needed */
+    text-align: left;
+}
+
+.icon-box {
+    height: 100px;
+}
+
+.icon {
+    width: 40px;
+    border: none;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.icon:hover {
+    width: 45px;
+    transition: 0.2s ease-in-out;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+        display: contents;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .text-column {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 70px;
+    }
+}
